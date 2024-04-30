@@ -87,7 +87,7 @@ typeloaders = {
     },
     "qemu.yaml": {
         "interface": config.NetworkInterface(
-            default_val="br0", must_exist=True, must_be_up=False
+            default_val="eth0", must_exist=True, must_be_up=False
         ),
         "disposable_copy_dir": config.DirectoryPath(
             allow_empty=True, must_exist=True, writable=True

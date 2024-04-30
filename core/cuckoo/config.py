@@ -40,7 +40,7 @@ typeloaders = {
         "tcpdump": {
             "enabled": config.Boolean(default_val=True),
             "path": config.FilePath(
-                default_val="/usr/sbin/tcpdump", must_exist=True
+                default_val="/usr/bin/tcpdump", must_exist=True
             )
         },
         "network_routing": {
